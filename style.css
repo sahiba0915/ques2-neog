@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+:root {
+    --primary-color: #09410179;
+    --font-color: #111827;
+    --hover: #b8fd8a;
+}
+
+body {
+    margin: 0;
+    font-family: 'KoHo', sans-serif;
+    color: var(--font-color);
+}
+
+.container{
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+h1, h2, .output {
+    text-align: center;
+}
+
+textarea {
+    font-family: inherit;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    border-color: var(--font-color);
+    font-size: 1rem;
+    min-height: 20vh;
+}
+
+button  {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    width: 100%;
+    display: inline;
+    background-color: var(--primary-color);
+    border-color: var(--font-color);
+}
+
+button:hover {
+    background-color: var(--hover);
+}
